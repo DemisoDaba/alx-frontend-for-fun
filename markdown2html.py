@@ -1,16 +1,6 @@
 #!/usr/bin/env python3
 """
 Minimal Markdown to HTML Converter
-
-Usage:
-    ./md2html.py [input_md] [output_html]
-
-Arguments:
-    input_md: Markdown file to be converted
-    output_html: Output HTML file
-
-Example:
-    ./md2html.py input.md output.html
 """
 
 import argparse
