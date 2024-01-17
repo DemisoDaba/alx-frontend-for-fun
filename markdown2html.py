@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-"""Markdown to HTML Converter: Sample naming used
-    in_ul: in unordered list
-    in_ol: in ordered list
-    in_p: in paragraph"""
-
+"""Markdown to HTML Converter"""
 
 import sys
 import os.path
