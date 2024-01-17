@@ -8,7 +8,8 @@ import hashlib
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
-        print('Usage: ./md2html.py <MarkdownFile> <OutputFile>', file=sys.stderr)
+        print('Usage: ./markdown2html.py README.md README.html',
+              file=sys.stderr)
         exit(1)
 
     md_file = sys.argv[1]
