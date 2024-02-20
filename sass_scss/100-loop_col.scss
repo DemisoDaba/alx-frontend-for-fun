@@ -1,0 +1,9 @@
+/* 100-loop_col.scss */
+/* Columns and operators */
+
+@for $i from 1 through 4 {
+  .col-#{$i} {
+    width: calc(#{$i} * 25%);
+  }
+}
+
