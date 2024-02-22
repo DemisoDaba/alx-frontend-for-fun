@@ -3,7 +3,6 @@
 
 @for $i from 1 through 4 {
   .col-#{$i} {
-    width: calc(#{$i} * 25%);
+    width: percentage(1 / $i);
   }
 }
-
