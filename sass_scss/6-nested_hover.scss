@@ -3,11 +3,13 @@
 $normal-color: #FF0000;
 $hover-color: #00FF00;
 
+@use "sass:color";
+
 button {
-  color: $normal-color;
+  color: color.$normal-color;
   transition: color 0.3s;
 
   &:hover {
-    color: $hover-color;
+    color: color.$hover-color;
   }
 }
