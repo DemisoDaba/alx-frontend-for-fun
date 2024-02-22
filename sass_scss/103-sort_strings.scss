@@ -1,7 +1,6 @@
 /* 103-sort_strings.scss */
 /* Sort! */
 
-// Define the list, sort it, and print the sorted it in the debug output
 $list_to_sort: john, anna, zoe, kim, felicia, carrie;
 $list_sorted: sort($list_to_sort);
 @debug "Sorted List: #{$list_sorted}";
