@@ -2,6 +2,5 @@
 /* Sort! */
 
 $list_to_sort: john, anna, zoe, kim, felicia, carrie;
-$list_sorted: sort($list_to_sort);
-$sorted_list: $list_sorted;
+$sorted_list: sort($list_to_sort);
 @debug "Sorted List: #{$sorted_list}";
